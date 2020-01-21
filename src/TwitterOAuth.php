@@ -466,7 +466,7 @@ class TwitterOAuth extends Config
     {
         $options = [
             // CURLOPT_VERBOSE => true,
-            CURLOPT_CONNECTTIMEOUT => $this->connectionTimeout,
+            CURLOPT_CONNECTTIMEOUT => $this->connectionTimeout
             CURLOPT_HEADER => true,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_SSL_VERIFYHOST => 2,
